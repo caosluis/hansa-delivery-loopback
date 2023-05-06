@@ -1,0 +1,36 @@
+{
+  "name": "Tiendas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CodTienda": {
+      "type": "string",
+      "id": true
+    },
+    "Tienda": {
+      "type": "string"
+    },
+    "Latitud": {
+      "type": "string"
+    },
+    "Longitud": {
+      "type": "string"
+    },
+    "Responsable": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

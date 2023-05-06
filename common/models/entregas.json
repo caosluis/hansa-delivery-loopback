@@ -1,0 +1,120 @@
+{
+  "name": "Entregas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdEntrega": {
+      "type": "string",
+      "id": true
+    },
+    "CodUsuario": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "FechaRecojoAlmacen": {
+      "type": "string"
+    },
+    "FechaEntregaCliente": {
+      "type": "string"
+    },
+    "FechaEntrega": {
+      "type": "string"
+    },
+    "LatitudReal": {
+      "type": "string"
+    },
+    "LongitudReal": {
+      "type": "string"
+    },
+    "Observacion": {
+      "type": "string"
+    },
+    "UsuarioFecha": {
+      "type": "string"
+    },
+    "NroFactura": {
+      "type": "string"
+    },
+    "FacturaAIO": {
+      "type": "string"
+    },
+    "NroPedido": {
+      "type": "string"
+    },
+    "MetodoPago": {
+      "type": "string"
+    },
+    "Monto": {
+      "type": "number"
+    },
+    "Moneda": {
+      "type": "string"
+    },
+    "Direccion": {
+      "type": "string"
+    },
+    "IdCliente": {
+      "type": "string"
+    },
+    "Latitud": {
+      "type": "string"
+    },
+    "Longitud": {
+      "type": "string"
+    },
+    "NitCi": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    },
+    "Almacen": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Zona": {
+      "type": "string"
+    },
+    "Nota": {
+      "type": "string"
+    },
+    "IdRegional": {
+      "type": "string"
+    },
+    "Tienda": {
+      "type": "string"
+    },
+    "OrderId": {
+      "type": "string"
+    },
+    "LatitudAlmacen": {
+      "type": "string"
+    },
+    "LongituAlmacen": {
+      "type": "string"
+    },
+    "ResponsableAlmacen": {
+      "type": "string"
+    },
+    "TelefonoAlmacen": {
+      "type": "string"
+    },
+    "KUNNR": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

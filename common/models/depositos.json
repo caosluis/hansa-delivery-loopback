@@ -1,0 +1,57 @@
+{
+  "name": "Depositos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdDeposito": {
+      "type": "string",
+      "id": true
+    },
+    "Banco": {
+      "type": "string"
+    },
+    "CodUsuario": {
+      "type": "string"
+    },
+    "DesEntrega": {
+      "type": "string"
+    },
+    "Fecha": {
+      "type": "string"
+    },
+    "FechaRegistro": {
+      "type": "string"
+    },
+    "Moneda": {
+      "type": "string"
+    },
+    "Depositante": {
+      "type": "string"
+    },
+    "Monto": {
+      "type": "string"
+    },
+    "NroDocumento": {
+      "type": "string"
+    },
+    "Obs": {
+      "type": "string"
+    },
+    "Regional": {
+      "type": "string"
+    },
+    "Procesado": {
+      "type": "string"
+    },
+    "Foto": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

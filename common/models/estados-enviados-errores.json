@@ -1,0 +1,27 @@
+{
+  "name": "Estados_Enviados_Errores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "shiping_id": {
+      "type": "string",
+      "id": true
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

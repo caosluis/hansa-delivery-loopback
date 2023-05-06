@@ -1,0 +1,56 @@
+{
+  "name": "Conductores",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Estado": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "CodUsuario": {
+      "type": "string"
+    },
+    "Tienda": {
+      "type": "string"
+    },
+    "IdRegional": {
+      "type": "string"
+    },
+    "Regional": {
+      "type": "string"
+    },
+    "Organizacion": {
+      "type": "string"
+    },
+    "IdVendedor": {
+      "type": "string"
+    },
+    "CI": {
+      "type": "string"
+    },
+    "Placa": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    },
+    "Capacidad": {
+      "type": "string"
+    },
+    "TipoVehiculo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

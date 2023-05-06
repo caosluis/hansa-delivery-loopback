@@ -1,0 +1,27 @@
+{
+  "name": "MetodoPago",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDMetodoPago": {
+      "type": "string",
+      "id": true
+    },
+    "TipoTarea": {
+      "type": "string"
+    },
+    "MetodoPagoMagento": {
+      "type": "string"
+    },
+    "MetodoPago": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

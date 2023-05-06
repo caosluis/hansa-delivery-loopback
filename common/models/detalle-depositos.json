@@ -1,0 +1,27 @@
+{
+  "name": "DetalleDepositos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdDeposito": {
+      "type": "string"
+    },
+    "Cliente": {
+      "type": "string"
+    },
+    "Monto": {
+      "type": "string"
+    },
+    "NroFactura": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
